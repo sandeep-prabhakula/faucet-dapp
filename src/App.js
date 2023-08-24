@@ -92,7 +92,7 @@ function App() {
     <div>
       <nav className="navbar bg-dark navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand">Sandeep Prabhakula Token (SPB)</a>
+          <a href="/" className="navbar-brand">Sandeep Prabhakula Token (SPB)</a>
           <form className="d-flex" role="search">
 
             <button
