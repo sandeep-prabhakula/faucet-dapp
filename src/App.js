@@ -159,6 +159,19 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="d-flex flex-column flex-wrap">
+            <h2 className="fs-2 fw-bolder">Steps for collecting tokens: </h2>
+            <ul className="d-flex flex-column flex-wrap ">
+              <li className="text-wrap"> Install MetaMask Blockchain Wallet app if using in smart phones </li>
+              <li className="text-wrap">Create a Metamask wallet.</li>
+              <li className="text-wrap"> Importing the smart contrat on sepolia test network using the contract hash: <strong>0xb6d7B65672A97136c85bAcAd2216736c3d0D0D42</strong></li>
+              <li className="text-wrap"> Connect your metamask wallet in the website, link mentioned in previous slide.</li>
+              <li className="text-wrap"> Then get your first 50 tokens for the day.</li>
+              <li className="text-wrap"> Make sure your account have some Sepolia ETH in your account for the gas fee.</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </div>
   );
