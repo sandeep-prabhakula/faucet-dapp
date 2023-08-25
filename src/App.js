@@ -118,10 +118,10 @@ function App() {
             <p>Fast and reliable. 50 SPB/day.</p>
             <div className="mt-5">
               {withdrawError && (
-                <div className="text-danger">{withdrawError}</div>
+                <div className="alert alert-danger text-danger">{withdrawError}</div>
               )}
               {withdrawSuccess && (
-                <div className="text-success">{withdrawSuccess}</div>
+                <div className="alert alert-success text-success">{withdrawSuccess}</div>
               )}{" "}
             </div>
             <div className="d-flex flex-column">
